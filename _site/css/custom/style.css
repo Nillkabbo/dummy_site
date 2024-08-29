@@ -1418,7 +1418,7 @@ label.ckb input:checked ~ span.checkmark::after {
     position: relative;
     text-align: center;
     overflow: hidden;
-    height: 640px;
+    height: 740px;
     width: 100%;
 }
 
