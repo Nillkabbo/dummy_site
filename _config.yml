@@ -1,4 +1,5 @@
 url: dummy_site.github.io
+baseurl: "/dummy_site"
 title: "Rombo.ai" # the name of your site, e.g. ACME Corp.
 
 
