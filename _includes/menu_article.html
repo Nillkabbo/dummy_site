@@ -4,7 +4,7 @@
 ">
 
         <!-- Logo -->
-        <a class="navbar-brand" style="padding-left: 10px; padding-bottom: 5px" href="/#">
+        <a class="navbar-brand" style="padding-left: 10px; padding-bottom: 5px" href="{{ site.baseurl }}/#">
             <img src="{{ site.baseurl }}/img/logo-1.svg" alt="Rombo AI Logo" class="img-fluid" >
         </a>
         <!-- Toggler/collapsible Button -->
@@ -15,17 +15,17 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link menu-item text-white" href="/contact">Contact Us</a>
+                    <a class="nav-link menu-item text-white" href="{{ site.baseurl }}/contact">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-item text-white" href="/about">About Us</a>
+                    <a class="nav-link menu-item text-white" href="{{ site.baseurl }}/about">About Us</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle menu-item text-white" href="/product" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle menu-item text-white" href="{{ site.baseurl }}/product" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Products
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown" data-bs-theme="dark">
-                        <li><a class="dropdown-item menu-item" href="/product">NMR AI ANALYZER</a></li>
+                        <li><a class="dropdown-item menu-item" href="{{ site.baseurl }}/product">NMR AI ANALYZER</a></li>
                         <!-- More products can be added here -->
                     </ul>
                 </li>
@@ -34,8 +34,8 @@
                         Resources
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownResources" data-bs-theme="dark">
-                        <li><a class="dropdown-item menu-item " href="/blog">Blogs</a></li>
-                        <li><a class="dropdown-item menu-item " href="/article">Articles</a></li>
+                        <li><a class="dropdown-item menu-item " href="{{ site.baseurl }}/blog">Blogs</a></li>
+                        <li><a class="dropdown-item menu-item " href="{{ site.baseurl }}/article">Articles</a></li>
                     </ul>
                 </li>
             </ul>
